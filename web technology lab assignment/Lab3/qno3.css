@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: #A1E44D;
+}
+
+iframe{
+    border: 5px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+#topbar{
+    width: 100%;
+    margin: 0;
+}
+
+#left{
+    margin: 0;
+    width: 20%;
+    height: 400px;
+}
+
+#right{
+    margin: 0;
+    width: 78%;
+    height: 400px;
+}
