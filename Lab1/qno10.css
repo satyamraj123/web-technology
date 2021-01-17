@@ -1,0 +1,68 @@
+body{
+    background-color: #d8f3dc;
+    font-family: monospace;
+}
+
+h1{
+    color:  #023047;
+    text-align: center;
+}
+ul{
+    color: #2d6a4f;
+    margin-left: 20%;
+    align-self: center;
+    
+}
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    margin-left: 20%;
+    color: #74c69d;
+}
+#checkconnection{
+    color: #081c15;
+    text-decoration: none;
+}
+#checkconnection:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#reload{
+  background-color: #023047;
+  color: #d8f3dc;
+  block-size: 30px;
+  border-radius: 10px;
+  float: left;
+  margin-top: 80px;
+  
+}
+#reload:hover{
+    background-color: #1b4332;
+    block-size: 33px;
+}
+a{
+    color: darkblue;
+
+}
+
+#details{
+    background-color: #40916c;
+    color: #b7e4c7;
+    block-size: 30px;
+    border-radius: 10px;
+  float: right;
+  margin-top: 80px;
+  
+}
+#details:hover{
+    background-color: #95d5b2;
+    block-size: 33px;
+}
+#buttons{
+    width: 60%;
+    
+    
+}

@@ -1,0 +1,24 @@
+#timetable{
+    border: 5px solid black;
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#timetable td{
+    border: 3px solid black;
+    text-align: center;
+}
+#timetable #time{
+    font-weight: 900;
+    font-size: large;
+    height: 50px;
+}
+#timetable #day{
+font-weight: 900;
+font-size: large;
+}
+#timetable #lab{
+font-weight: 900;
+font-size: large;
+}
