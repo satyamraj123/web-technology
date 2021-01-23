@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class qno5 {
     public static void main(String[] args) {
         int n = 1;
-        ;
         System.out.println("Enter the amount of charachters you want to sort: ");
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
