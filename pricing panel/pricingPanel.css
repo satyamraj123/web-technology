@@ -1,0 +1,100 @@
+body{
+    background-color: #4895ef;
+    margin: 0;
+    padding: 10px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Coda Caption';
+}
+section{
+    
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 25px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 50px 0px 25px;
+    color: #4895ef;
+}
+img{
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 25px;   
+}
+.panel{
+border-bottom: 1px solid #e1f1ff;
+}
+.panel:last-child{
+    border-bottom: none;
+}
+.name{
+    height: 100px;
+    color: #888;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+li{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 2;
+    padding: 15px;
+    border-top: 1px solid #e1f1ff;
+}
+li:last-child{
+    border-bottom: 1px solid #e1f1ff;
+}
+.price{
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.button{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 25px 0;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+}
+.button:hover,.button:focus{
+background-color: #e1f1ff;
+}
+
+@media (min-width: 900px){
+    section{
+        flex-direction: row;
+    }
+    .panel{
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .panel:last-child{
+        border-right: none;
+    }
+    img{
+        height: 200px;
+        width: 100%;
+        max-width: 300px;
+        object-fit: contain;
+        margin-bottom: 25px;   
+    }
+}
